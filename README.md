@@ -9,7 +9,7 @@ Analyze real-time performance and delays in public transportation systems using 
 - Optional: Add Pydantic for schema validation later.
 - 
 🔁 **ETL Workflow**
-1. **Data Ingestion**
+**1.** **Data Ingestion**
 Read JSON and CSV files.
 
 Validate structure.
