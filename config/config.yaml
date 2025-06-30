@@ -1,0 +1,6 @@
+data_paths:
+  sales: "data/raw/sales_data.csv"
+  products: "data/raw/product_data.csv"
+  stores: "data/raw/store_data.json"
+  output: "data/processed/output.csv"
+log_path: "logs/pipeline.log"

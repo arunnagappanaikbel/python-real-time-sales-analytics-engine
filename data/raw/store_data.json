@@ -1,0 +1,5 @@
+[
+  {"store_id": 101, "store_name": "Main Street", "region": "North"},
+  {"store_id": 102, "store_name": "Town Center", "region": "South"},
+  {"store_id": 103, "store_name": "Mall Kiosk", "region": "East"}
+]
