@@ -7,9 +7,10 @@ Analyze real-time performance and delays in public transportation systems using 
 - PyYAML for configuration.
 - os, logging, json, datetime for utility.
 - Optional: Add Pydantic for schema validation later.
-- 
+  
 🔁 **ETL Workflow**
 **1.** **Data Ingestion**
+
 Read JSON and CSV files.
 
 Validate structure.
@@ -17,6 +18,7 @@ Validate structure.
 Handle corrupted rows or malformed JSON keys.
 
 **2. Transformations using NumPy & pandas**
+
 Normalize nested JSON (e.g. json_normalize).
 
 Time-based aggregations and joins.
