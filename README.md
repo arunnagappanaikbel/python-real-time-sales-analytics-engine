@@ -11,37 +11,37 @@ Analyze real-time performance and delays in public transportation systems using 
 🔁 **ETL Workflow**
 **1.** **Data Ingestion**
 
-Read JSON and CSV files.
+- Read JSON and CSV files.
 
-Validate structure.
+- Validate structure.
 
-Handle corrupted rows or malformed JSON keys.
+- Handle corrupted rows or malformed JSON keys.
 
 **2. Transformations using NumPy & pandas**
 
-Normalize nested JSON (e.g. json_normalize).
+- Normalize nested JSON (e.g. json_normalize).
 
-Time-based aggregations and joins.
+- Time-based aggregations and joins.
 
-Identify average delays per route and per road.
+- Identify average delays per route and per road.
 
-Pivot passenger traffic over time.
+- Pivot passenger traffic over time.
 
-Detect congestion patterns using NumPy statistical functions.
+- Detect congestion patterns using NumPy statistical functions.
 
-Merge traffic and transport data on timestamp + region/road.
+- Merge traffic and transport data on timestamp + region/road.
 
 **3. Analysis**
-Top 5 congested routes vs delay trends.
+- Top 5 congested routes vs delay trends.
 
-Correlation between traffic speed and transport delay.
+- Correlation between traffic speed and transport delay.
 
-Peak hour analysis using NumPy histogram or percentile.
+- Peak hour analysis using NumPy histogram or percentile.
 
 **4. Output**
-Save transformed and analyzed data to processed/ and output/.
+- Save transformed and analyzed data to processed/ and output/.
 
-Generate summaries in CSV and JSON formats.
+- Generate summaries in CSV and JSON formats.
 
 ## 📂 Repository Structure
 ```
